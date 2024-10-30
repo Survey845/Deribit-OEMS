@@ -7,7 +7,7 @@
 - [Overview](#overview)
 - [Features](#features)
 - [Prerequisites](#prerequisites)
-- [Steps](#steps)
+- [Installation](#installation)
 - [Dependencies](#dependencies)
 
 ### Overview
@@ -29,16 +29,16 @@ Deribit-OEMS is an application written in C++ designed for interacting with the 
 - C++ Compiler (C++ 17)
 - IDE (for example VS Code)
 
-### Steps
+### Installation
 
-- You have installed all the files from the master branch
+- Clone the Deribit-OEMS master branch to your local device.
 - After cloning the Deribit-OEMS repo, use the code provided below to use the websocketpp submodule:
 
   ```bash
   git submodule update --init --recursive
   ```
 
-- Make sure you cURL library is updated
+- Update your cURL library
 - Rename the .env.dist to .env and enter you API key and secret where it is mentioned. Keep in mind, do not put quotation marks around them, and leave no spaces.
 
 ### Dependencies
