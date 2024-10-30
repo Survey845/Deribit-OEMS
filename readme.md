@@ -17,12 +17,12 @@ Deribit-OEMS is an application written in C++ designed for interacting with the 
 ### Features
 
 - **Place Orders:** Place market/limit buy and sell orders on Deribit
-- **Cancel Orders:**Cancel open orders by OrderID
-- **Modify Orders:**Edit existing orders by amount and price
-- **Get Order Book:**Fetch and display Order Book
-- **View Current Positions:**Displays current open positions
-- **Websocket Servers:**Allows subscription to tokens and receiving updates
-- **Spot, futures and options for all supported symbols:**Offers compatibility with all symbols
+- **Cancel Orders:** Cancel open orders by OrderID
+- **Modify Orders:** Edit existing orders by amount and price
+- **Get Order Book:** Fetch and display Order Book
+- **View Current Positions:** Displays current open positions
+- **Websocket Servers:** Allows subscription to tokens and receiving updates
+- **Spot, futures and options for all supported symbols:** Offers compatibility with all symbols
 
 ### Prerequisites
 
