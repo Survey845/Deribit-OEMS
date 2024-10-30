@@ -4,26 +4,26 @@
 
 ### Table of Contents
 
-- Overview (#Overview)
-- Features
-- Ensure the following
-- Dependencies
+- [Overview] (#overview)
+- [Features] (#overview)
+- [Ensure the following] (#ensure-the-following)
+- [Dependencies] (#dependencies)
 
 ### Overview
 
 Deribit-OEMS is an application written in C++ designed for interacting with the Test Deribit-API. It provides various functions like placing orders, viewing current positions and an additional functionality for clients to subscribe to specific tokens using websocket servers.
 
-### Features:
+### Features
 
-- Place Orders
-- Cancel Orders
-- Modify Orders
-- Get Order Book
-- View Current Positions
-- Websocket Servers
-- Spot, futures and options for all supported symbols
+- **Place Orders**
+- **Cancel Orders**
+- **Modify Orders**
+- **Get Order Book**
+- **View Current Positions**
+- **Websocket Servers**
+- **Spot, futures and options for all supported symbols**
 
-### Ensure the following:
+### Ensure the following
 
 - You have installed all the files from the master branch
 - After cloning the Deribit-OEMS repo, use the code provided below to use the websocketpp submodule:
