@@ -27,3 +27,10 @@ Deribit-OEMS is an application written in C++ designed for interacting with the 
 
 - Make sure you cURL library is updated
 - Rename the .env.dist to .env and enter you API key and secret where it is mentioned. Keep in mind, do not put quotation marks around them, and leave no spaces.
+
+### Dependencies
+
+- [cURL](https://curl.se/) to make HTTP requests
+- [websocketpp](https://github.com/zaphoyd/websocketpp/tree/1b11fd301531e6df35a6107c1e8665b1e77a2d8e) for server side functionality
+- [nlohmann/json](https://github.com/nlohmann/json) for JSON parsing
+- [cpp-dotenv](https://github.com/adeharo9/cpp-dotenv) To read .env file
