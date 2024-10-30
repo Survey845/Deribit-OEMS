@@ -2,6 +2,13 @@
 
 ## An Order Execution and Mangement System for the Deribit Testnet using API
 
+### Table of Contents
+
+- Overview (#Overview)
+- Features
+- Ensure the following
+- Dependencies
+
 ### Overview
 
 Deribit-OEMS is an application written in C++ designed for interacting with the Test Deribit-API. It provides various functions like placing orders, viewing current positions and an additional functionality for clients to subscribe to specific tokens using websocket servers.
