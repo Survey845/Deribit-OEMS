@@ -19,10 +19,10 @@ Deribit-OEMS is an application written in C++ designed for interacting with the 
 ### Ensure the following:
 
 - You have installed all the files from the master branch
-- Install the Websocketpp Library for the functioning of the server side code
+- After cloning the Deribit-OEMS repo, use the code provided below to use the websocketpp submodule:
 
   ```bash
-  git clone https://github.com/zaphoyd/websocketpp.git
+  git submodule update --init --recursive
   ```
 
 - Make sure you cURL library is updated
