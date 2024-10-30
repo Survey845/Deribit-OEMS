@@ -4,10 +4,11 @@
 
 ### Table of Contents
 
-- [Overview] (#overview)
-- [Features] (#overview)
-- [Ensure the following] (#ensure-the-following)
-- [Dependencies] (#dependencies)
+- [Overview](#overview)
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Steps](#steps)
+- [Dependencies](#dependencies)
 
 ### Overview
 
@@ -23,7 +24,12 @@ Deribit-OEMS is an application written in C++ designed for interacting with the 
 - **Websocket Servers**
 - **Spot, futures and options for all supported symbols**
 
-### Ensure the following
+### Prerequisites
+
+- C++ Compiler (C++ 17)
+- IDE (for example VS Code)
+
+### Steps
 
 - You have installed all the files from the master branch
 - After cloning the Deribit-OEMS repo, use the code provided below to use the websocketpp submodule:

@@ -8,7 +8,7 @@ int main()
     OrderManager order_manager;
 
     // Buy order
-    // std::string response = order_manager.buy_order("BTC-PERPETUAL", 10.0, 4000);
+    std::string response = order_manager.buy_order("BTC-PERPETUAL", 10.0, 4000);
 
     // Sell order
     //  std::string response = order_manager.cancel_order("29233414007");
@@ -22,7 +22,7 @@ int main()
     // Modify order
     // std::string response = order_manager.modify_order("29233457321", 20.0, 4000);
 
-    // std::cout << "Order: " << response << std::endl;
+    std::cout << "Order: " << response << std::endl;
 
     // Start Websocket
     WebSocketServer server;
